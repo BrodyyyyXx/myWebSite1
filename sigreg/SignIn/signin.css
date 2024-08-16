@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@900&family=Sedgwick+Ave+Display&display=swap');
+
+body{
+background-color: orange;
+}
+
+.signin{
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+}

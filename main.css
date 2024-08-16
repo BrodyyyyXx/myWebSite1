@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@900&family=Sedgwick+Ave+Display&display=swap');
+
+body{
+    height: 4900px;
+}
+
+.page1{
+background-color: white;
+width: 100%;
+height: 750px;
+border-radius: 50%;
+}
+
+.page2{
+background-color: black;
+width: 100%;
+height: 1000px;
+border-radius: 20px;
+color: white;
+}
+
+.page3{
+    background-color: #696969;
+    width: 100%;
+    height: 1000px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 20px;
+}
+
+.page4{
+    background-color: #808080;
+    width: 100%;
+    height: 1095px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 20px;    
+}
+
+.page5{
+    background-color: #778899;
+    width: 100%;
+    height: 820px;
+    border-radius: 20px;
+    color: black;
+    margin-top: 20px;    
+}
+
+.head{
+width: 100%;
+height: 70px;
+border-bottom: 4px solid silver;
+background: #333;
+line-height: 70px;
+margin-bottom: 50px;
+float: left;
+text-align: center;
+color: #fff;
+}
+
+.footer{
+    width: 100%;
+    height: 70px;
+    border-bottom: 4px solid silver;
+    background: #333;
+    line-height: 70px;
+    margin-bottom: 50px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 50px;
+    border-bottom: 0;
+    border-top: 4px solid silver;
+}
+
+.header{
+margin-top: 5px;
+background-image: url('img_1.png');
+font-size: 50px;
+color: transparent;
+-webkit-background-clip: text;
+text-align: center;
+font-family: 'Prompt', sans-serif;
+animation: animate 10s infinite  linear;
+}
+
+@keyframes animate{
+from{
+background-position: 0 0;
+} to{
+background-position: 100% 100%;
+}
+}
+
+.signin{
+background-color: #3498db; /* Цвет фона кнопки */
+    color: white; /* Цвет текста */
+    border: none; /* Убираем границу */
+    padding: 10px 20px; /* Отступы внутри кнопки (верх-низ, лево-право) */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Изменяем вид курсора при наведении */
+    border-radius: 5px; /* Закругление углов */
+    float: right;
+    margin-right: 10px;
+    }
+
+.signin:hover {
+    background-color: #2980b9;
+    }
+
+.reg{
+background-color: #DC143C; /* Цвет фона кнопки */
+    color: white; /* Цвет текста */
+    border: none; /* Убираем границу */
+    padding: 10px 20px; /* Отступы внутри кнопки (верх-низ, лево-право) */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Изменяем вид курсора при наведении */
+    border-radius: 5px; /* Закругление углов */
+    float: right;
+    margin-right: 10px;
+    }
+
+.reg:hover {
+    background-color: #9932CC;
+    }
+
+.start{
+margin-top: 150px;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sedgwick Ave Display', cursive;
+float: left;
+}
+
+.round-image {
+    width: 550px; /* Ширина картинки */
+    height: 550px; /* Высота картинки */
+    border-radius: 50%; /* Закругление углов (50% для круга) */
+    overflow: hidden; /* Скрываем лишний контент */
+    float: right;
+    }
+
+.devgame{
+width: 400px; /* Ширина картинки */
+height: 180px; /* Высота картинки */
+margin-right: 28px;
+margin-left: 20px;
+float: right;
+}
+
+.webdev{
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    float: left;    
+}
+
+
+
+
